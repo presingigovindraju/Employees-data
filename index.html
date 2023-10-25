@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee details</title>
+    <link
+      rel="icon"
+      href="https://thumbs.dreamstime.com/b/black-solid-icon-employee-applicant-man-logo-symbol-146530494.jpg"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter name"
+          required
+        />
+        <input type="email" name="email" placeholder="Enter email" required />
+        <input type="number" name="salary" placeholder="salary" required />
+        <select name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Others</option>
+        </select>
+        <input
+          type="text"
+          name="companyName"
+          placeholder="Enter company name"
+          required
+        />
+        <select name="role">
+          <option value="QA">QA</option>
+          <option value="SDE">SDE</option>
+          <option value="PRODUCT">PRODUCT</option>
+        </select>
+        <button>ADD EMPLOYEE</button>
+      </form>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Company Name</th>
+              <th>Salary</th>
+              <th>Gender</th>
+              <th>Role</th>
+              <th>email</th>
+              <th>Options</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

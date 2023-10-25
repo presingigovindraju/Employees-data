@@ -1,0 +1,57 @@
+*{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+}
+form{
+    background-color: #eeedef;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+form > input,form > select,form >button {
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0px 1px 3px #f6f7f8;
+}
+form > input,form > select,form >button :hover{
+    background-color: pick;
+}
+
+table{
+    color:black;
+    width: 100%;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 10px 5px;
+
+}
+form > button{
+    background-color: #8e8f8f;
+    font-weight: 900;
+}
+deleteButton{
+    background-color: white;
+}
+table{
+    font-weight: bolder;
+}
+td{
+    padding: 10px 40px;
+    font-weight: 900;
+}
+form:valid > button{
+    background-color: lightblue;
+}
